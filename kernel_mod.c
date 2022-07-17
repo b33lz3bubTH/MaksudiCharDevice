@@ -3,10 +3,10 @@
 #include <linux/kernel.h>
 
 
-MODULE_LICENSE("GPL")
-MODULE_AUTHOR("Sourav A")
-MODULE_DESCPTION("Basic Hello World Kernel Program")
-MODULE_VERSION("1.0.0")
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Sourav A");
+MODULE_DESCRIPTION("Basic Hello World Kernel Program");
+MODULE_VERSION("1.0.0");
 
 
 static int __init helloworld_init(void) {
